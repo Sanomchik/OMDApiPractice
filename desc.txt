@@ -1,0 +1,16 @@
+npm i gulp -g
+npm init
+npm i gulp --save-dev
+npm i gulp-sass --save-dev
+gulp sass
+gulp watch
+npm install -g browser-sync  |||   npm i browser-sync --save-dev
+CTRL+C - finish
+npm i bower -g
+bower i jquery
+npm i --save-dev gulp-concat gulp-uglifyjs
+npm i gulp-cssnano gulp-rename --save-dev
+npm i del --save-dev
+npm i gulp-imagemin imagemin-pngquant --save-dev
+npm i gulp-cache --save-dev
+npm i --save-dev gulp-autoprefixer
