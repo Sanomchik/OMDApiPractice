@@ -25,6 +25,8 @@ var Article = React.createClass({
     var text = document.getElementById('searchForm').value;
     this.ajaxRequest(text);
     that.setState({
+      jsonDataOther: {},
+      movieListOther: [],
       showMain: true,
       showSingle: false
     });
